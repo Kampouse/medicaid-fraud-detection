@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-02-25T18:41:55.484216",
+  "total_providers_scanned": "~100K (10M rows sampled)",
+  "total_providers_flagged": 1100095,
+  "signal_counts": {
+    "excluded_provider": 5,
+    "billing_outlier": 1302,
+    "rapid_escalation": 754404,
+    "workforce_impossibility": 0,
+    "shared_official": 0,
+    "geographic_implausibility": 344384
+  },
+  "signals": {
+    "excluded_provider": [
+      {
+        "npi": "0",
+        "exclusion_date": "1988-08-30",
+        "exclusion_type": "1128a1",
+        "total_paid_after_exclusion": 1834911449.2100003,
+        "claim_count": 119518,
+        "signal_type": "excluded_provider",
+        "severity": "critical"
+      },
+      {
+        "npi": "1346352531",
+        "exclusion_date": "2016-08-18",
+        "exclusion_type": "1128b4",
+        "total_paid_after_exclusion": 28080.0,
+        "claim_count": 2,
+        "signal_type": "excluded_provider",
+        "severity": "critical"
+      },
+      {
+        "npi": "1821269275",
+        "exclusion_date": "2017-06-20",
+        "exclusion_type": "1128a1",
+        "total_paid_after_exclusion": 116030.95,
+        "claim_count": 2,
+        "signal_type": "excluded_provider",
+        "severity": "critical"
+      },
+      {
+        "npi": "1871571406",
+        "exclusion_date": "2016-01-20",
+        "exclusion_type": "1128a1",
+        "total_paid_after_exclusion": 395608.50000000006,
+        "claim_count": 23,
+        "signal_type": "excluded_provider",
+        "severity": "critical"
+      },
+      {
+        "npi": "1982736492",
+        "exclusion_date": "2010-01-20",
+        "exclusion_type": "1128b5",
+        "total_paid_after_exclusion": 4212601.539999999,
+        "claim_count": 71,
+        "signal_type": "excluded_provider",
+        "severity": "critical"
+      }
+    ],
+    "billing_outlier": [
+      {
+        "npi": "1376609297",
+        "total_paid": 5571223099.680012,
+        "peer_median": 684632.01,
+        "peer_99th_percentile": 84829810.69600014,
+        "ratio_to_median": 8137.54399196148,
+        "signal_type": "billing_outlier",
+        "severity": "high"
+      },
+      {
+        "npi": "1922467554",
+        "total_paid": 3025872028.5499983,
+        "peer_median": 684632.01,
+        "peer_99th_percentile": 84829810.69600014,
+        "ratio_to_median": 4419.705746083941,
+        "signal_type": "billing_outlier",
+        "severity": "high"
+      },
+      {
+        "npi": "1417262056",
+        "total_paid": 7177056269.829977,
+        "peer_median": 684632.01,
+        "peer_99th_percentile": 84829810.69600014,
+        "ratio_to_median": 10483.086044764364,
+        "signal_type": "billing_outlier",
+        "severity": "high"
+      },
+      {
+        "npi": "1538649983",
+        "total_paid": 2105781138.7999995,
+        "peer_median": 684632.01,
+        "peer_99th_percentile": 84829810.69600014,
+        "ratio_to_median": 3075.7853971800114,
+        "signal_type": "billing_outlier",
+        "severity": "high"
+      },
+      {
+        "npi": "1376097303",
+        "total_paid": 1081483692.7600002,
+        "peer_median": 684632.01,
+        "peer_99th_percentile": 84829810.69600014,
+        "ratio_to_median": 1579.6569207449127,
+        "signal_type": "billing_outlier",
+        "severity": "high"
+      },
+      {
+        "npi": "1073854451",
+        "total_paid": 333451173.94000006,
+        "peer_median": 684632.01,
+        "peer_99th_percentile": 84829810.69600014,
+        "ratio_to_median": 487.05168480217577,
+        "signal_type": "billing_outlier",
+        "severity": "high"
+      },
+      {
+        "npi": "1700901725",
+        "total_paid": 262241710.07000002,
+        "peer_median": 684632.01,
+        "peer_99th_percentile": 84829810.69600014,
+        "ratio_to_median": 383.0403870102422,
+        "signal_type": "billing_outlier",
+        "severity": "high"
+      },
+      {
+        "npi": "1962650622",
+        "total_paid": 1682257221.3700001,
+        "peer_median": 684632.01,
+        "peer_99th_percentile": 84829810.69600014,
+        "ratio_to_median": 2457.1699786137665,
+        "signal_type": "billing_outlier",
+        "severity": "high"
+      },
+      {
+        "npi": "1396049987",
+        "total_paid": 1041410716.0700003,
+        "peer_median": 684632.01,
+        "peer_99th_percentile": 84829810.69600014,
+        "ratio_to_median": 1521.1247806978822,
+        "signal_type": "billing_outlier",
+        "severity": "high"
+      },
+      {
+        "npi": "1518098359",
+        "total_paid": 1037216238.4000002,
+        "peer_median": 684632.01,
+        "peer_99th_percentile": 84829810.69600014,
+        "ratio_to_median": 1514.9981643423307,
+        "signal_type": "billing_outlier",
+        "severity": "high"
+      },
+      {
+        "npi": "1780816991",
+        "total_paid": 1106635537.9599998,
+        "peer_median": 684632.01,
+        "peer_99th_percentile": 84829810.69600014,
+        "ratio_to_median": 1616.3946788874214,
+        "signal_type": "billing_outlier",
+        "severity": "high"
+      },
+      {
+        "npi": "1710176151",
+        "total_paid": 2677933726.159992,
+        "peer_median": 684632.01,
+        "peer_99th_percentile": 84829810.69600014,
+        "ratio_to_median": 3911.493601007631,
+        "signal_type": "billing_outlier",
+        "severity": "high"
+      },
+      {
+        "npi": "1396051694",
+        "total_paid": 1441927934.449999,
+        "peer_median": 684632.01,
+        "peer_99th_percentile": 84829810.69600014,
+        "ratio_to_median": 2106.13572457706,
+        "signal_type": "billing_outlier",
+        "severity": "high"
+      },
+      {
+        "npi": "1033571658",
+        "total_paid": 848211431.1000004,
+        "peer_median": 684632.01,
+        "peer_99th_percentile": 84829810.69600014,
+        "ratio_to_median": 1238.9304308164037,
+        "signal_type": "billing_outlier",
+        "severity": "high"
+      },
+      {
+        "npi": "1275657553",
+        "total_paid": 1101767759.1299994,
+        "peer_median": 684632.01,
+        "peer_99th_percentile": 84829810.69600014,
+        "ratio_to_median": 1609.2846128097333,
+        "signal_type": "billing_outlier",
+        "severity": "high"
+      },
+      {
+        "npi": "1376554592",
+        "total_paid": 1224008799.5700006,
+        "peer_median": 684632.01,
