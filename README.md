@@ -2,6 +2,20 @@
 
 A CLI tool that analyzes HHS Medicaid Provider Spending data to detect potential fraud signals.
 
+## Results (Full Dataset - 227M rows)
+
+| Signal | Count | Severity |
+|--------|-------|----------|
+| Excluded Provider | 5 | 🚨 CRITICAL |
+| Billing Outlier | 1,302 | ⚠️ HIGH |
+| Rapid Escalation | 754,404 | ⚠️ MEDIUM |
+| Geographic Implausibility | 344,384 | ⚠️ MEDIUM |
+| **Total Flags** | **1,100,095** | — |
+
+**Key Finding:** $1.84 BILLION paid to excluded providers after their exclusion dates.
+
+👉 **See [EVIDENCE.md](EVIDENCE.md) for detailed findings with NPIs and amounts.**
+
 ## Overview
 
 This tool processes the HHS Medicaid Provider Spending dataset (227M rows) and cross-references with:
